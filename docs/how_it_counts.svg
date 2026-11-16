@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" font-size="14">
+  <rect width="820" height="380" rx="10" fill="#f6f7f4"/>
+  <!-- ground -->
+  <line x1="30" y1="300" x2="790" y2="300" stroke="#b9bdb5" stroke-width="2"/>
+  <!-- truck -->
+  <rect x="60" y="120" width="250" height="125" rx="4" fill="#dfe3dc" stroke="#7c827a" stroke-width="2"/>
+  <circle cx="125" cy="272" r="26" fill="#7c827a"/><circle cx="245" cy="272" r="26" fill="#7c827a"/>
+  <text x="185" y="188" text-anchor="middle" fill="#3d423c" font-weight="600">truck</text>
+  <!-- tailgate zone -->
+  <rect x="296" y="196" width="62" height="62" fill="none" stroke="#c98500" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="327" y="188" text-anchor="middle" fill="#8a5c00" font-size="12">zone (tailgate)</text>
+  <!-- building -->
+  <rect x="680" y="70" width="110" height="230" fill="#e9ebe6" stroke="#7c827a" stroke-width="2"/>
+  <rect x="700" y="210" width="44" height="90" fill="#cfd3cb" stroke="#7c827a" stroke-width="1.5"/>
+  <text x="735" y="100" text-anchor="middle" fill="#3d423c" font-weight="600">store</text>
+  <!-- plank -->
+  <line x1="668" y1="298" x2="312" y2="246" stroke="#6b5a45" stroke-width="6" stroke-linecap="round"/>
+  <text x="590" y="276" fill="#4d4032" font-size="12">plank</text>
+  <!-- gate -->
+  <line x1="450" y1="150" x2="450" y2="318" stroke="#e0a800" stroke-width="5" stroke-linecap="round"/>
+  <text x="450" y="338" text-anchor="middle" fill="#8a5c00" font-weight="600">gate</text>
+  <text x="450" y="356" text-anchor="middle" fill="#6a6f68" font-size="12">over the plank and the ground beside it</text>
+  <!-- carrier with sack -->
+  <ellipse cx="528" cy="181" rx="27" ry="11" fill="#f3c9d2" stroke="#b9687c" stroke-width="1.5"/>
+  <circle cx="528" cy="200" r="8" fill="#3d423c"/>
+  <line x1="528" y1="208" x2="528" y2="246" stroke="#3d423c" stroke-width="5" stroke-linecap="round"/>
+  <line x1="528" y1="246" x2="518" y2="274" stroke="#3d423c" stroke-width="5" stroke-linecap="round"/>
+  <line x1="528" y1="246" x2="540" y2="277" stroke="#3d423c" stroke-width="5" stroke-linecap="round"/>
+  <line x1="528" y1="218" x2="544" y2="196" stroke="#3d423c" stroke-width="4" stroke-linecap="round"/>
+  <!-- width bracket -->
+  <path d="M501 160 v-8 h54 v8" fill="none" stroke="#2a78d6" stroke-width="2"/>
+  <text x="566" y="150" fill="#1c5cab" font-size="12">width above the head: wide = sack</text>
+  <!-- arrows -->
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2a78d6"/></marker>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#8b908a"/></marker>
+  </defs>
+  <line x1="640" y1="52" x2="400" y2="52" stroke="#2a78d6" stroke-width="3" marker-end="url(#a)"/>
+  <text x="520" y="40" text-anchor="middle" fill="#1c5cab" font-weight="600">towards the truck: checked for a sack</text>
+  <line x1="400" y1="92" x2="640" y2="92" stroke="#8b908a" stroke-width="3" marker-end="url(#b)"/>
+  <text x="520" y="112" text-anchor="middle" fill="#6a6f68">walking back: ignored</text>
+</svg>

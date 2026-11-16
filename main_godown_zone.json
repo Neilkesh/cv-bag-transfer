@@ -1,0 +1,38 @@
+{
+  "zone": [
+    [
+      500,
+      110
+    ],
+    [
+      585,
+      118
+    ],
+    [
+      585,
+      152
+    ],
+    [
+      503,
+      145
+    ]
+  ],
+  "frame_size": [
+    1280,
+    720
+  ],
+  "gate": [
+    [
+      570,
+      115
+    ],
+    [
+      570,
+      185
+    ]
+  ],
+  "plank_part": 0.62,
+  "bag_width_sure": 30,
+  "bag_width_min": 22,
+  "note": "zone = truck tailgate. gate = line across the path to the truck; a person whose feet cross it towards the zone is checked for a bag. plank_part = share of the gate (from its first point) that is the plank; the rest is the ground beside it."
+}

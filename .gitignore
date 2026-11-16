@@ -1,0 +1,20 @@
+# Footage, results and anything derived from them stay out of the repository
+videos/
+results/
+*_results/
+*.mp4
+*.jpg
+*.png
+bag_results.zip
+bag_count_analysis.html
+tracks.csv
+
+# Model weights (downloaded on first run)
+*.pt
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/

@@ -45,6 +45,19 @@ accuracy as unproven on other footage until a second clip has been checked.
 | Borderline shape, or came along the ground beside the plank | **unclear**: counted and flagged |
 | Narrow shape | not counted; logged in `no_bag.csv` for auditing |
 
+### What it looks like
+
+The camera view with the tailgate zone and the gate line drawn in yellow:
+
+![Camera view with the zone and gate drawn](docs/screenshots/camera_view.jpg)
+
+Annotated frames written by the counter, one per crossing:
+
+| Bag | Unclear | No bag |
+|---|---|---|
+| ![Carrier with a sack crossing the gate on the plank](docs/screenshots/bag.jpg) | ![Carrier with a sack crossing the gate on the ground](docs/screenshots/unclear.jpg) | ![Person without a sack crossing the gate](docs/screenshots/no_bag.jpg) |
+| Sack on the head, came up the plank. Counted. | Has a sack but walked along the ground beside the plank. Counted and flagged. | Crossed towards the truck with nothing on the head. Not counted. |
+
 ## Quick start
 
 ```bash
@@ -130,9 +143,10 @@ its disks.
 
 ## Footage and privacy
 
-No footage, snapshots or results are included in this repository, and
-`.gitignore` keeps them out. CCTV recordings show identifiable people; handle
-them under your own site's rules.
+Apart from the four example frames above, which are cropped and have the
+on-screen date removed, no footage, snapshots or results are included in this
+repository, and `.gitignore` keeps them out. CCTV recordings show identifiable
+people; handle them under your own site's rules.
 
 ## Dependencies
 

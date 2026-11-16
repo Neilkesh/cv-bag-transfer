@@ -5,6 +5,7 @@ results/
 *.mp4
 *.jpg
 *.png
+!docs/screenshots/*.jpg
 bag_results.zip
 bag_count_analysis.html
 tracks.csv
